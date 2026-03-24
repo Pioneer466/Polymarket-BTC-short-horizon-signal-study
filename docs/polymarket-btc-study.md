@@ -170,8 +170,6 @@ Key metrics from the reference run:
 - `trade_coverage = 0.0112`
 - `benchmark_auc = 0.5532`
 - `benchmark_brier = 0.2498`
-- paper backtest trades: `1`
-- paper backtest cumulative return: `0.0007755`
 
 Interpretation:
 
@@ -186,7 +184,6 @@ Key metrics from the reference run:
 - `trade_coverage = 0.0`
 - `benchmark_auc = 0.3654`
 - `benchmark_brier = 0.2484`
-- paper backtest trades: `0`
 
 Interpretation:
 
@@ -198,9 +195,9 @@ Interpretation:
 
 The current study supports a restrained conclusion:
 
-- yes, Polymarket BTC short-horizon markets can be collected and analyzed cleanly
-- yes, the `5m` horizon may contain a weak signal
-- no, the current evidence does not support a strong or production-ready trading edge
+- Polymarket BTC short-horizon markets can be collected and analyzed cleanly
+- The `5m` horizon may contain a weak signal
+- The current evidence does not support a strong or production-ready trading edge
 
 The `5m` horizon is the only one that shows early signs of predictive value in this reference sample, and even there the signal is rare. The `15m` horizon has data, but no threshold-triggered edge in the current run.
 
@@ -211,11 +208,3 @@ The `5m` horizon is the only one that shows early signs of predictive value in t
 - test less sparse signal rules
 - explicitly compare Polymarket probabilities with the BTC move that has already happened before entry
 - validate stability on out-of-sample windows
-
-## Bottom line
-
-This repository now answers the original question in a pragmatic way:
-
-- it finds the real Polymarket markets of interest
-- it measures the information value of those markets using a clean `S0 / Se / ST` framework
-- it shows a possible `5m` signal, but not yet a robust edge
