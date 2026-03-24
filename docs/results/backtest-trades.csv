@@ -1,0 +1,2 @@
+ts_utc,close_time,market_id,horizon_minutes,entry_offset_minutes,signal,btc_open_at_market_open,entry_price,exit_price,return_open_to_entry,return_entry_to_close,return_open_to_close,gross_return,net_return,equity
+2026-03-23 15:26:00+00:00,2026-03-23 16:30:00+01:00,0x8e695f859679f2369a44dd84c45c92fb14a258af1bbca83232937b73ea8c06d6,5,1,-1,71020.01,70997.79,70900.13,-0.00031286957013942907,-0.001375535773718961,-0.001687974980572271,0.001375535773718961,0.0007755357737189611,1.000775535773719

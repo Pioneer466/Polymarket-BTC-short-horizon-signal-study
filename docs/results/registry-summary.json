@@ -1,0 +1,10 @@
+{
+  "total_markets": 717,
+  "polymarket_markets": 399,
+  "kalshi_markets": 318,
+  "polymarket_active_markets": 399,
+  "polymarket_closed_markets": 383,
+  "polymarket_market_types": {
+    "binary_directional": 399
+  }
+}

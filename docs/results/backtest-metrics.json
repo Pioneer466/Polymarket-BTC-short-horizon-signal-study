@@ -1,0 +1,16 @@
+{
+  "5": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "cumulative_return": 0.0007755357737189161,
+    "average_trade_return": 0.0007755357737189611,
+    "best_entry_offset_minutes": 1
+  },
+  "15": {
+    "trades": 0,
+    "win_rate": null,
+    "cumulative_return": null,
+    "average_trade_return": null,
+    "best_entry_offset_minutes": 1
+  }
+}

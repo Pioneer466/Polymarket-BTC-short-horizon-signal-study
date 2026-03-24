@@ -1,0 +1,74 @@
+paths:
+  data_dir: data
+  raw_dir: data/raw
+  normalized_dir: data/normalized
+  registry_dir: data/registry
+  outputs_dir: outputs
+
+universe:
+  horizons_minutes: [5, 15]
+
+filters:
+  min_liquidity: 1000.0
+  max_spread: 0.10
+
+thresholds:
+  upper_probability: 0.55
+  lower_probability: 0.45
+
+polling:
+  kalshi_seconds: 60
+  btc_seconds: 60
+  websocket_batch_seconds: 90
+
+research:
+  benchmark_test_fraction: 0.30
+  fee_bps: 1.0
+  slippage_bps: 2.0
+  lead_lag_window_minutes: 60
+
+strategy:
+  primary_venue: polymarket
+  min_entry_offset_minutes: 1
+  max_entry_fraction: 0.70
+  min_rows_per_offset: 10
+
+polymarket:
+  gamma_url: https://gamma-api.polymarket.com
+  clob_url: https://clob.polymarket.com
+  data_url: https://data-api.polymarket.com
+  websocket_url: wss://ws-subscriptions-clob.polymarket.com/ws/market
+  include_active: true
+  include_closed: true
+  recurring_slug_lookback_hours: 24
+  seed_event_slugs: []
+  search_terms:
+    - bitcoin
+    - btc
+    - bitcoin up or down
+    - btc up or down
+    - bitcoin 5 minutes
+    - bitcoin 15 minutes
+    - btc 5 minutes
+    - btc 15 minutes
+    - bitcoin up
+    - bitcoin down
+    - bitcoin above
+    - bitcoin below
+    - btc above
+    - btc below
+  max_results_per_search: 200
+  discovery_pages: 10
+
+kalshi:
+  base_url: https://api.elections.kalshi.com/trade-api/v2
+  series_tickers:
+    - KXBTCD
+  page_limit: 200
+  nearest_strikes_per_event: 3
+
+btc:
+  binance_url: https://api.binance.com
+  coinbase_url: https://api.exchange.coinbase.com
+  symbol: BTCUSDT
+  product_id: BTC-USD

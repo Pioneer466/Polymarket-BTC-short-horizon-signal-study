@@ -1,0 +1,30 @@
+{
+  "5": {
+    "rows": 89,
+    "trade_coverage": 0.011235955056179775,
+    "avg_confidence": 0.14893258426966294,
+    "contract_threshold_accuracy": 1.0,
+    "trade_threshold_accuracy": 1.0,
+    "contract_probability_brier": 0.20728342696629215,
+    "avg_trade_return": 0.001375535773718961,
+    "avg_open_to_entry_return": 0.00017654884797877694,
+    "avg_open_to_close_return": 0.0004072271417481669,
+    "best_entry_offset_minutes": 1,
+    "benchmark_auc": 0.553202479338843,
+    "benchmark_brier": 0.24980696759302623
+  },
+  "15": {
+    "rows": 30,
+    "trade_coverage": 0.0,
+    "avg_confidence": 0.06950000000000002,
+    "contract_threshold_accuracy": null,
+    "trade_threshold_accuracy": null,
+    "contract_probability_brier": 0.24825916666666661,
+    "avg_trade_return": null,
+    "avg_open_to_entry_return": 0.00030372238449195935,
+    "avg_open_to_close_return": 0.0012544251258545635,
+    "best_entry_offset_minutes": 1,
+    "benchmark_auc": 0.3653846153846154,
+    "benchmark_brier": 0.24839652109845883
+  }
+}
