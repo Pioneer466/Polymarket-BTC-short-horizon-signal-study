@@ -148,19 +148,6 @@ Interpretation:
 - an AUC above `0.5` suggests some predictive power
 - an AUC below `0.5` means the model is effectively worse than random on that sample
 
-### Equity chart
-
-File:
-
-- `docs/results/equity-5m.png`
-
-This chart shows the cumulative BTC paper-trading equity curve of the threshold-based rule, after costs.
-
-Interpretation:
-
-- the `5m` reference run only generated one trade, so the curve contains a single upward step
-- there is no `15m` equity chart in the reference run because the current thresholds did not trigger any `15m` trades
-
 ### Metric files
 
 Files:
